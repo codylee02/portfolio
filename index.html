@@ -3,14 +3,13 @@
 <head>
     <title>Cody Lee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
     <nav role="navigation">Nav</nav>
     <main role="main">
         <header role="banner">
-            <img src="images/IMG_0904 (1).jpg" alt="picture of Cody Lee">
+            <img class="hero-img" src="images/IMG_0904 (1)_resize.jpg" alt="picture of Cody Lee">
             <h1>I’m Cody. I’m a full-stack developer student and I enjoy video games.</h1>
         </header>
 
@@ -23,21 +22,29 @@
                 YouTube, and reading blogs or books to learn new things.</p>
         </section>
     
-        <section>
-            <h1>Projects</h1>
-            <h2>Car Quiz</h2>
-            <p>A short quiz application that tests a user’s basic car knowledge. It keeps score, gives the user 
-                feedback whenever they answer a question, and allows the user to retry the quiz from the beginning. 
-                It also has a responsive design so that it looks great on mobile and desktop.</p>
-            <h3>Technologies Used</h3>
-            <p>HTML/CSS/Javascript/JQuery</p>
-            <a href="https://codylee02.github.io/quiz-app/">LIVE</a>
-            <a href="https://github.com/codylee02/quiz-app">GitHub Repo</a>
-            <img src="images/question-example.jpg" alt="picture of sample question for quiz app">
-            <img src="images/feedback-example.jpg" alt="picture of feedback for sample question of quiz app">
+        <section class="projects">
+            <div class="text-column">
+                <h1>Projects</h1>
+                <h2>Car Quiz</h2>
+                <p>A short quiz application that tests a user’s basic car knowledge. It keeps score, gives the user 
+                    feedback whenever they answer a question, and allows the user to retry the quiz from the beginning. 
+                    It also has a responsive design so that it looks great on mobile and desktop.</p>
+                <h3>Technologies Used</h3>
+                <p>HTML/CSS/Javascript/JQuery</p>
+            </div>
+            <div class="sample-column">
+                <span class="links-repo-live">
+                    <a href="https://codylee02.github.io/quiz-app/">LIVE</a>
+                    <a href="https://github.com/codylee02/quiz-app">GitHub Repo</a>
+                </span>
+                <div class="sample-image">
+                    <img class="project-sample" src="images/question-example.jpg" alt="picture of sample question for quiz app">
+                    <img class="project-sample" src="images/feedback-example.jpg" alt="picture of feedback for sample question of quiz app">
+                </div>
+            </div>
         </section>
     
-        <section>
+        <section class="contact-info">
             <h1>Contact Info</h1>
             <address>
                 codylee02@gmail.com

@@ -4,7 +4,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #444;
     text-align: center;
     line-height: 1.5;
@@ -27,20 +27,97 @@ header {
     padding: 12% 0;
 }
 
+.hero-img {
+    border-radius: 100%;
+    max-width: 80%;
+}
+
 section {
     min-height: 200px;
-    padding: 6% 0;
+    padding: 2%;
     background-color: #bbb;
+    text-align: left;
 }
 
 section:nth-child(even) {
     background-color: #ddd;
 }
 
+h2 {
+    font-size: 1.4em;
+    color: #555;
+}
+
+h3 {
+    font-size: 1.1em;
+    color: #666;
+}
+
 img {
-    max-width: 80%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links-repo-live {
+    display: block;
+    text-align: center;
+}
+
+section img.project-sample {
+    display: block;
+    width: 92%;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 .social-media-icon {
     max-height: 40px;
+}
+
+address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sample-image {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section img.project-sample {
+        display: block;
+        width: 45%;
+        margin: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+    }
+
+    header {
+        padding: 6% 2% 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section.projects {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    section.projects p {
+        margin-right: 10%;
+    }
 }
