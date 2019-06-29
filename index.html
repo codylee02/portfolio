@@ -4,16 +4,25 @@
     <title>Cody Lee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+        
+    <nav role="navigation">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <main role="main">
-        <header role="banner">
+        <header role="banner" id="home">
             <img class="hero-img" src="images/IMG_0904 (1)_resize.jpg" alt="picture of Cody Lee">
             <h1>I’m Cody. I’m a full-stack developer student and I enjoy video games.</h1>
         </header>
-
-        <section>
+        
+        <section id="about-me">
             <h1>About Me</h1>
             <p>I am currently studying Bloc’s Web Developer Track for full-stack web development. 
                 I am enjoying coding because I get to solve problems that can help people be more efficient. 
@@ -22,9 +31,9 @@
                 YouTube, and reading blogs or books to learn new things.</p>
         </section>
     
-        <section class="projects">
+        <section class="projects" id="project">
             <div class="text-column">
-                <h1>Projects</h1>
+                    <h1>Projects</h1>
                 <h2>Car Quiz</h2>
                 <p>A short quiz application that tests a user’s basic car knowledge. It keeps score, gives the user 
                     feedback whenever they answer a question, and allows the user to retry the quiz from the beginning. 
@@ -44,7 +53,7 @@
             </div>
         </section>
     
-        <section class="contact-info">
+        <section class="contact-info" id="contact">
             <h1>Contact Info</h1>
             <address>
                 codylee02@gmail.com
@@ -53,7 +62,7 @@
             </address>
         </section>
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info"></footer>
 </body>
 
 
