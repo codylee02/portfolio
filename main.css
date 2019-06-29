@@ -49,12 +49,7 @@ header {
 section {
     min-height: 200px;
     padding: 2%;
-    background-color: #bbb;
     text-align: left;
-}
-
-section:nth-child(even) {
-    background-color: #ddd;
 }
 
 h2 {
