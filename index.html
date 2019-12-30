@@ -1,87 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Cody Lee</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-        
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
     <nav role="navigation">
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
     <main role="main">
-        <header role="banner" id="home">
-            <img class="hero-img" src="images/IMG_0904.jpg" alt="picture of Cody Lee">
-            <h1>I’m Cody. I’m a full-stack developer student and I enjoy video games.</h1>
-        </header>
-        
-        <section id="about-me">
-            <h1>About Me</h1>
-            <p>I am currently studying Bloc’s Web Developer Track for full-stack web development. 
-                I am enjoying coding because I get to solve problems that can help people be more efficient. 
-                I get a lot of satisfaction when I see something that I made helps make someone else’s day easier.</p>
-            <p>Some other things I enjoy are playing video games, watching 
-                YouTube, and reading blogs or books to learn new things.</p>
-        </section>
-    
-        <section class="projects" id="project">
-            <div class="text-column">
-                    <h1>Projects</h1>
-                <h2>Car Quiz</h2>
-                <p>A short quiz application that tests a user’s basic car knowledge. It keeps score, gives the user 
-                    feedback whenever they answer a question, and allows the user to retry the quiz from the beginning. 
-                    It also has a responsive design so that it looks great on mobile and desktop.</p>
-                <h3>Technologies Used</h3>
-                <p>HTML/CSS/Javascript/JQuery</p>
-            </div>
-            <div class="sample-column">
-                <span class="links-repo-live">
-                    <a href="https://codylee02.github.io/quiz-app/">LIVE</a>
-                    <a href="https://github.com/codylee02/quiz-app">GitHub Repo</a>
-                </span>
-                <div class="sample-image">
-                    <img class="project-sample" src="images/question-example.jpg" alt="picture of sample question for quiz app">
-                    <img class="project-sample" src="images/feedback-example.jpg" alt="picture of feedback for sample question of quiz app">
-                </div>
-            </div>
-        </section>
-        <section class="projects">
-            <div class="text-column">
-                <h2>Quick Park Info</h2>
-                <p>This web app allows the user to search every US National Park. It queries the National Parks API and gives the user details about the park, pictures of the park, typical weather,
-                    and current alerts for the park.</p>
-                <h3>Technologies Used</h3>
-                <p>HTML/CSS/Javascript/JQuery</p>
-            </div>
-            <div class="sample-column">
-                <span class="links-repo-live">
-                    <a href="https://github.com/codylee02/park-quick-info">GitHub Repo</a>
-                </span>
-                <div class="sample-image">
-                    <img class="project-sample" src="images/crater-lake-example.png" alt="picture of app displaying information for Crater Lake">
-                    <img class="project-sample" src="images/yellowstone-example.png" alt="picture of app displaying information for Yellowstone">
-                </div>
+      <header role="banner" id="home">
+        <img
+          class="hero-img"
+          src="images/IMG_0904.jpg"
+          alt="picture of Cody Lee"
+        />
+        <h1>I’m Cody. I’m a full-stack web developer.</h1>
+      </header>
 
-            </div>
-        </section>
-    
-        <section class="contact-info" id="contact">
-            <h1>Contact Info</h1>
-            <address>
-                codylee02@gmail.com
-                <a href="https://github.com/codylee02" target="_blank"><img class="social-media-icon" src="images/GitHub_Logo.png" alt="GitHub logo linking to Cody Lee's GitHub"></a>
-                <a href="https://www.linkedin.com/in/cody-lee-830416106" target="_blank"><img class="social-media-icon" src="images/linkedin-logo.png" alt="LinkedIn logo linking to Cody Lee's LinkedIn"></a>
-            </address>
-        </section>
+      <section id="about-me">
+        <h1>About Me</h1>
+        <p>
+          I am currently studying Bloc’s Web Developer Track for full-stack web
+          development. I enjoy coding because I get to solve problems that can
+          help people be more efficient. I get a lot of satisfaction when I see
+          something that I made helps make someone else’s day easier.
+        </p>
+        <p>
+          Some other things I enjoy are playing video games, watching YouTube,
+          and reading blogs or books to learn new things.
+        </p>
+      </section>
+      <h1 id="projects-title">Projects</h1>
+      <section class="projects" id="project">
+        <div class="text-column">
+          <h2>PAKD</h2>
+          <p>
+            A full-stack app that allows users to create templates and import
+            them into packing lists.
+          </p>
+          <h3>Technologies Used</h3>
+          <p>React/Express/Node/PostgreSQL/HTML/CSS/Javascript</p>
+        </div>
+        <div class="sample-column">
+          <span class="links-repo-live">
+            <a href="https://packed-app.codylee02.now.sh/">LIVE</a>
+            <a href="https://github.com/codylee02/packed-app"
+              >GitHub Repo (app)</a
+            >
+            <a href="https://github.com/codylee02/packed-api"
+              >GitHub Repo (api)</a
+            >
+          </span>
+          <div class="sample-image">
+            <img
+              class="project-sample"
+              src="images/lists-tab.png"
+              alt="example of lists tab in PAKD"
+            />
+            <img
+              class="project-sample"
+              src="images/list-example.png"
+              alt="example of a list in PAKD"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <div class="text-column">
+          <h2>Quick Park Info</h2>
+          <p>
+            This web app allows the user to search every US National Park. It
+            queries the National Parks API and gives the user details about the
+            park, pictures of the park, typical weather, and current alerts for
+            the park.
+          </p>
+          <h3>Technologies Used</h3>
+          <p>HTML/CSS/Javascript/jQuery</p>
+        </div>
+        <div class="sample-column">
+          <span class="links-repo-live">
+            <a href="https://codylee02.github.io/park-quick-info/">LIVE</a>
+            <a href="https://github.com/codylee02/park-quick-info"
+              >GitHub Repo</a
+            >
+          </span>
+          <div class="sample-image">
+            <img
+              class="project-sample"
+              src="images/crater-lake-example.png"
+              alt="picture of app displaying information for Crater Lake"
+            />
+            <img
+              class="project-sample"
+              src="images/yellowstone-example.png"
+              alt="picture of app displaying information for Yellowstone"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <div class="text-column">
+          <h2>Car Quiz</h2>
+          <p>
+            A short quiz application that tests a user’s basic car knowledge. It
+            keeps score, gives the user feedback whenever they answer a
+            question, and allows the user to retry the quiz from the beginning.
+            It also has a responsive design so that it looks great on mobile and
+            desktop.
+          </p>
+          <h3>Technologies Used</h3>
+          <p>HTML/CSS/Javascript/jQuery</p>
+        </div>
+        <div class="sample-column">
+          <span class="links-repo-live">
+            <a href="https://codylee02.github.io/quiz-app/">LIVE</a>
+            <a href="https://github.com/codylee02/quiz-app">GitHub Repo</a>
+          </span>
+          <div class="sample-image">
+            <img
+              class="project-sample"
+              src="images/question-example.jpg"
+              alt="picture of sample question for quiz app"
+            />
+            <img
+              class="project-sample"
+              src="images/feedback-example.jpg"
+              alt="picture of feedback for sample question of quiz app"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-info" id="contact">
+        <h1>Contact Info</h1>
+        <address>
+          codylee02@gmail.com
+          <a href="https://github.com/codylee02" target="_blank"
+            ><img
+              class="social-media-icon"
+              src="images/GitHub_Logo.png"
+              alt="GitHub logo linking to Cody Lee's GitHub"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/cody-lee-830416106"
+            target="_blank"
+            ><img
+              class="social-media-icon"
+              src="images/linkedin-logo.png"
+              alt="LinkedIn logo linking to Cody Lee's LinkedIn"
+          /></a>
+        </address>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
