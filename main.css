@@ -167,7 +167,8 @@ address {
     margin-right: auto;
   }
 
-  section.projects, section.contact-info {
+  section.projects,
+  section.contact-info {
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -177,7 +178,7 @@ address {
   }
 
   section.contact-info {
-    display:block;
+    display: block;
   }
 
   .text-column {
