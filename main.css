@@ -167,13 +167,17 @@ address {
     margin-right: auto;
   }
 
-  section.projects {
+  section.projects, section.contact-info {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     max-width: 1000px;
+  }
+
+  section.contact-info {
+    display:block;
   }
 
   .text-column {
